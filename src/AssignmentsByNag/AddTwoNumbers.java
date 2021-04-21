@@ -2,7 +2,7 @@ package AssignmentsByNag;
 
 public class AddTwoNumbers {
     static int Add1 = 250;
-    static int Add2 = 500;
+    static int Add2 = 700;
     static int Add3 = Add1 + Add2;
 
     public static void main(String[] args) {
