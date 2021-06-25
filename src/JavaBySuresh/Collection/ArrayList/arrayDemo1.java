@@ -35,11 +35,11 @@ public class arrayDemo1 {
         l3.add(80.005f);
         System.out.println(l3); //output :[45.0, 52.3, 80.005]
 
-        List<Double> l4 = new ArrayList<Double>();
+        List<Double> l4 = new ArrayList<>();
         l4.add(45.8);
         l4.add(52.3);
         l4.add(80d);
-        System.out.println(l3); //output : [45.0, 52.3, 80.005]
+        System.out.println(l4); //output : [45.0, 52.3, 80.005]
     }
 
 }

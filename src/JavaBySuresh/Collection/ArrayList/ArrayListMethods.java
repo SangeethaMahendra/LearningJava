@@ -7,7 +7,7 @@ import java.util.List;
 
 //Req:How to compare 2 arraylists?
 //--------------------------------
-//equals() was over-ridden in collection framework as data-comparision
+//equals() was over-ridden in collection framework as data-comparison
 public class ArrayListMethods {
     public static void main(String[] args) {
         compare obj = new compare();
