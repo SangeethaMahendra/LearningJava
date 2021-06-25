@@ -65,6 +65,20 @@ class hashMap{
         }
     }
 
+    //Approach 2 - both keys & Values using enhanced for loop
+    void getKeyGetValue(){
+        Map<String,String> m4 = new HashMap<>();
+        m4.put("A","Hyd");
+        m4.put("C", "Chennai");
+        m4.put("B", "Delhi");
+        m4.put("null","null"); //one nul key ; Multiple null value
+        m4.put("D","null");
+        for(Map.Entry me: m4.entrySet()){
+            System.out.println(me.getKey() + " " + me.getValue());
+        }
+
+    }
+
 }
 public class iterateHashMap {
     public static void main(String[] args) {
@@ -73,5 +87,6 @@ public class iterateHashMap {
         obj.keys();
         obj.values();
         obj.KeyValue();
+        obj.getKeyGetValue();
     }
 }
